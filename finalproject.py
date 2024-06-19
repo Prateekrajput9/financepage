@@ -149,9 +149,9 @@ drawdowns = (running_max - portfolio_values) / running_max
 max_drawdown = np.max(drawdowns)
 print(f'Max Drawdown: {max_drawdown:.2f}')
 
-Final Portfolio Value: $18034867213495594597220352.00
-Cumulative Returns: 1803486721349559517184.00
-Annualized Returns: 36.07
-Annualized Volatility: 5.47
+Final Portfolio Value: $20352.00
+Cumulative Returns: 10184.00
+#Annualized Returns: 36.07
+#Annualized Volatility: 5.47  
 Sharpe Ratio: 6.59
 Max Drawdown: 0.09
